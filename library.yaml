@@ -1,0 +1,67 @@
+default_dirs:
+  skills:
+    - default: .claude/skills/
+    - global: ~/.claude/skills/
+  agents:
+    - default: .claude/agents/
+    - global: ~/.claude/agents/
+  prompts:
+    - default: .claude/commands/
+    - global: ~/.claude/commands/
+
+library:
+  skills:
+    - name: composition-patterns
+      description: React composition patterns that scale — compound components, render props, context providers, and React 19 API changes
+      source: https://github.com/vercel-labs/agent-skills/blob/main/skills/composition-patterns/SKILL.md
+
+    - name: design-an-interface
+      description: Generate multiple radically different interface designs using parallel sub-agents ("Design It Twice")
+      source: https://github.com/mattpocock/skills/blob/main/design-an-interface/SKILL.md
+
+    - name: deploy-to-vercel
+      description: Deploy applications and websites to Vercel — preview and production deployments, project linking, git-push deploys
+      source: https://github.com/vercel-labs/agent-skills/blob/main/skills/deploy-to-vercel/SKILL.md
+
+    - name: grill-me
+      description: Interview the user relentlessly about a plan or design until reaching shared understanding
+      source: https://github.com/mattpocock/skills/blob/main/grill-me/SKILL.md
+
+    - name: prd-to-plan
+      description: Turn a PRD into a multi-phase implementation plan using tracer-bullet vertical slices, saved as Markdown
+      source: https://github.com/mattpocock/skills/blob/main/prd-to-plan/SKILL.md
+
+    - name: react-best-practices
+      description: React and Next.js performance optimization guidelines from Vercel Engineering — 64 rules across 8 categories
+      source: https://github.com/vercel-labs/agent-skills/blob/main/skills/react-best-practices/SKILL.md
+
+    - name: react-native-skills
+      description: React Native and Expo best practices for performant mobile apps — animations, lists, native modules, platform APIs
+      source: https://github.com/vercel-labs/agent-skills/blob/main/skills/react-native-skills/SKILL.md
+
+    - name: request-refactor-plan
+      description: Create a detailed refactor plan with tiny commits via user interview, filed as a GitHub issue
+      source: https://github.com/mattpocock/skills/blob/main/request-refactor-plan/SKILL.md
+
+    - name: setup-pre-commit
+      description: Set up Husky pre-commit hooks with lint-staged (Prettier), type checking, and tests
+      source: https://github.com/mattpocock/skills/blob/main/setup-pre-commit/SKILL.md
+
+    - name: tdd
+      description: Test-driven development with red-green-refactor loop for building features or fixing bugs
+      source: https://github.com/mattpocock/skills/blob/main/tdd/SKILL.md
+
+    - name: vercel-cli-with-tokens
+      description: Deploy and manage Vercel projects using token-based CLI authentication without interactive login
+      source: https://github.com/vercel-labs/agent-skills/blob/main/skills/vercel-cli-with-tokens/SKILL.md
+
+    - name: web-design-guidelines
+      description: Review UI code for Web Interface Guidelines compliance — accessibility, UX audits, design best practices
+      source: https://github.com/vercel-labs/agent-skills/blob/main/skills/web-design-guidelines/SKILL.md
+
+    - name: write-a-prd
+      description: Create a PRD through user interview, codebase exploration, and module design, submitted as GitHub issue
+      source: https://github.com/mattpocock/skills/blob/main/write-a-prd/SKILL.md
+
+  agents: []
+  prompts: []
