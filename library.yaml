@@ -43,6 +43,10 @@ library:
       description: Create a detailed refactor plan with tiny commits via user interview, filed as a GitHub issue
       source: https://github.com/mattpocock/skills/blob/main/request-refactor-plan/SKILL.md
 
+    - name: skill-creator
+      description: Create new skills, modify and improve existing skills, run evals, and benchmark skill performance
+      source: https://github.com/anthropics/skills/blob/main/skills/skill-creator/SKILL.md
+
     - name: setup-pre-commit
       description: Set up Husky pre-commit hooks with lint-staged (Prettier), type checking, and tests
       source: https://github.com/mattpocock/skills/blob/main/setup-pre-commit/SKILL.md
