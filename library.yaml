@@ -35,7 +35,7 @@ library:
       description: Transcribe YouTube videos, get summaries, search channels, fetch comments via REST API or MCP
       source: https://github.com/t6tv8e/t6tv8e-agentic-engineering/blob/main/skills/easytranscriber/SKILL.md
 
-    - name: firecrawl
+    - name: firecrawl-cli
       description: Web scraping, search, crawling, and research with LLM-optimized markdown output — replaces built-in web tools
       source: https://github.com/firecrawl/firecrawl-claude-plugin/blob/main/skills/firecrawl-cli/SKILL.md
 
