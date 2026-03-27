@@ -22,9 +22,11 @@ Figure out the type from the user's prompt or the source path:
 - If user says "prompt" → type is `prompt`
 - If ambiguous, ask the user
 
-### 3. Validate the Source
-- **Local path**: Verify the file exists at the given path
+### 3. Resolve and Validate the Source
+- If the user provides a relative path or `@`-prefixed shorthand, resolve it to an absolute local path first
+- **Prefer GitHub URLs over local paths**: If the resolved file lives inside a git repo with a GitHub remote, construct the GitHub browser URL (`https://github.com/<org>/<repo>/blob/<branch>/<path>`) instead of using the local absolute path. Run `git remote get-url origin` and use the repo's current branch to build the URL. Local paths are not portable across devices.
 - **GitHub URL**: Verify the URL is well-formed (matches browser or raw URL patterns)
+- **Local path** (only if no GitHub remote exists): Verify the file exists at the given path
 - Confirm the source points to a specific file, not a directory
 
 ### 4. Parse Dependencies
