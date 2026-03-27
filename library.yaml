@@ -80,4 +80,8 @@ library:
       source: https://github.com/mattpocock/skills/blob/main/write-a-prd/SKILL.md
 
   agents: []
-  prompts: []
+  prompts:
+    - name: skill-gen
+      description: Generate a complete Agent Skill from a documentation URL using Firecrawl scraping
+      source: https://github.com/firecrawl/firecrawl-claude-plugin/blob/main/commands/skill-gen.md
+      requires: [skill:firecrawl]
