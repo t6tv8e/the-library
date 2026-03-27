@@ -31,6 +31,10 @@ library:
       description: Deploy applications and websites to Vercel — preview and production deployments, project linking, git-push deploys
       source: https://github.com/vercel-labs/agent-skills/blob/main/skills/deploy-to-vercel/SKILL.md
 
+    - name: firecrawl
+      description: Web scraping, search, crawling, and research with LLM-optimized markdown output — replaces built-in web tools
+      source: https://github.com/firecrawl/firecrawl-claude-plugin/blob/main/skills/firecrawl-cli/SKILL.md
+
     - name: grill-me
       description: Interview the user relentlessly about a plan or design until reaching shared understanding
       source: https://github.com/mattpocock/skills/blob/main/grill-me/SKILL.md
