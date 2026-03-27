@@ -15,6 +15,10 @@ library:
       description: Browser automation CLI for AI agents — navigate pages, fill forms, click buttons, take screenshots, extract data, test web apps
       source: https://github.com/vercel-labs/agent-browser/blob/main/skills/agent-browser/SKILL.md
 
+    - name: chrome-cdp
+      description: Lightweight Chrome DevTools Protocol CLI — inspect, debug, and interact with local Chrome browser sessions via WebSocket
+      source: https://github.com/pasky/chrome-cdp-skill/blob/main/skills/chrome-cdp/SKILL.md
+
     - name: composition-patterns
       description: React composition patterns that scale — compound components, render props, context providers, and React 19 API changes
       source: https://github.com/vercel-labs/agent-skills/blob/main/skills/composition-patterns/SKILL.md
