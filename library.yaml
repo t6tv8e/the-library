@@ -87,7 +87,11 @@ library:
       description: Create a PRD through user interview, codebase exploration, and module design, submitted as GitHub issue
       source: https://github.com/mattpocock/skills/blob/main/write-a-prd/SKILL.md
 
-  agents: []
+  agents:
+    - name: agentic-web-browsing-agent
+      description: General-purpose agentic web browsing agent — browses sites, fills forms, posts content, places orders, extracts data
+      source: /Users/t6t/src/t6tv8e-agentic-engineering/agents/agentic-web-browsing-agent/AGENTS.md
+      requires: [skill:agent-browser, skill:playwright-cli, skill:firecrawl]
   prompts:
     - name: skill-gen
       description: Generate a complete Agent Skill from a documentation URL using Firecrawl scraping
