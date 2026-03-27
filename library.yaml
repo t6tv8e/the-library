@@ -19,17 +19,17 @@ library:
       description: React composition patterns that scale — compound components, render props, context providers, and React 19 API changes
       source: https://github.com/vercel-labs/agent-skills/blob/main/skills/composition-patterns/SKILL.md
 
-    - name: easytranscriber
-      description: Transcribe YouTube videos, get summaries, search channels, fetch comments via REST API or MCP
-      source: https://github.com/t6tv8e/t6tv8e-agentic-engineering/blob/main/skills/easytranscriber/SKILL.md
+    - name: deploy-to-vercel
+      description: Deploy applications and websites to Vercel — preview and production deployments, project linking, git-push deploys
+      source: https://github.com/vercel-labs/agent-skills/blob/main/skills/deploy-to-vercel/SKILL.md
 
     - name: design-an-interface
       description: Generate multiple radically different interface designs using parallel sub-agents ("Design It Twice")
       source: https://github.com/mattpocock/skills/blob/main/design-an-interface/SKILL.md
 
-    - name: deploy-to-vercel
-      description: Deploy applications and websites to Vercel — preview and production deployments, project linking, git-push deploys
-      source: https://github.com/vercel-labs/agent-skills/blob/main/skills/deploy-to-vercel/SKILL.md
+    - name: easytranscriber
+      description: Transcribe YouTube videos, get summaries, search channels, fetch comments via REST API or MCP
+      source: https://github.com/t6tv8e/t6tv8e-agentic-engineering/blob/main/skills/easytranscriber/SKILL.md
 
     - name: firecrawl
       description: Web scraping, search, crawling, and research with LLM-optimized markdown output — replaces built-in web tools
@@ -55,13 +55,13 @@ library:
       description: Create a detailed refactor plan with tiny commits via user interview, filed as a GitHub issue
       source: https://github.com/mattpocock/skills/blob/main/request-refactor-plan/SKILL.md
 
-    - name: skill-creator
-      description: Create new skills, modify and improve existing skills, run evals, and benchmark skill performance
-      source: https://github.com/anthropics/skills/blob/main/skills/skill-creator/SKILL.md
-
     - name: setup-pre-commit
       description: Set up Husky pre-commit hooks with lint-staged (Prettier), type checking, and tests
       source: https://github.com/mattpocock/skills/blob/main/setup-pre-commit/SKILL.md
+
+    - name: skill-creator
+      description: Create new skills, modify and improve existing skills, run evals, and benchmark skill performance
+      source: https://github.com/anthropics/skills/blob/main/skills/skill-creator/SKILL.md
 
     - name: tdd
       description: Test-driven development with red-green-refactor loop for building features or fixing bugs
