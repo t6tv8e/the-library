@@ -37,7 +37,7 @@ library:
 
     - name: firecrawl-download
       description: Download an entire website as local files — markdown, screenshots, or multiple formats per page
-      source: /Users/t6t/.agents/skills/firecrawl-download/SKILL.md
+      source: https://github.com/t6tv8e/the-library/blob/main/skills/firecrawl-download/SKILL.md
       requires: [skill:firecrawl]
 
     - name: grill-me
