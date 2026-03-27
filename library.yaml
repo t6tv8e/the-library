@@ -35,6 +35,11 @@ library:
       description: Web scraping, search, crawling, and research with LLM-optimized markdown output — replaces built-in web tools
       source: https://github.com/firecrawl/firecrawl-claude-plugin/blob/main/skills/firecrawl-cli/SKILL.md
 
+    - name: firecrawl-download
+      description: Download an entire website as local files — markdown, screenshots, or multiple formats per page
+      source: /Users/t6t/.agents/skills/firecrawl-download/SKILL.md
+      requires: [skill:firecrawl]
+
     - name: grill-me
       description: Interview the user relentlessly about a plan or design until reaching shared understanding
       source: https://github.com/mattpocock/skills/blob/main/grill-me/SKILL.md
